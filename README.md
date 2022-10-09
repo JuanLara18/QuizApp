@@ -17,7 +17,12 @@ Gracias al uso de **Estructuras de datos** se piensa acceder a los bancos de pre
 
 ## Para ejecutar la app
 ```
+cd client
+npm start
+```
+## Para construir la app
+```
 npm install create-react
 npx create-react-app quizapp
-npm i react react-dom react-router react-router-dom react-scripts reactstrap
+npm i react react-dom react-router react-router-dom react-scripts reactstrap bootstrap
 ```
