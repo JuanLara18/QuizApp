@@ -8,6 +8,7 @@ import Calculo from './pages/Calculo'
 import Algebra from './pages/Algebra'
 import Trigonometria from './pages/Trigonometria'
 import Programacion from './pages/Programacion'
+import Fisica from './pages/Fisica'
 
 
 export default function App(){
@@ -20,7 +21,8 @@ return(
 <Route path="/*" element ={<NotFoundPage/>} />
 
 <Route path="/Math" element ={<Matematicas/>} />
-<Route path="/Cal" element ={<Calculo/>} />
+<Route path="/Fisi" element ={<Fisica/>} />
+<Route path="/Calculo" element ={<Calculo/>} />
 <Route path="/Alge" element ={<Algebra/>} />
 <Route path="/Trigono" element ={<Trigonometria/>} />
 <Route path="/Progra" element ={<Programacion/>} />
@@ -29,6 +31,7 @@ return(
 </BrowserRouter>
 )
 }
+
 /*
 const [conectado, setConectado] = useState(false);
 
