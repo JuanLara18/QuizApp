@@ -24,5 +24,6 @@ npm start
 ```
 npm install create-react
 npx create-react-app quizapp
+cd quizapp
 npm i react react-dom react-router react-router-dom react-scripts reactstrap bootstrap
 ```
