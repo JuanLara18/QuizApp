@@ -12,103 +12,6 @@ import {
   ModalFooter,
 } from "reactstrap";
 
-class Nodo{
-  constructor(dato = null){
-      this.dato = dato;
-      this.next = null;
-  }
-
-  getData(){
-      return this.dato;
-  }
-
-  setData(a){
-      this.dato = a;
-  }
-
-  getNext(){
-      return this.next;
-  }
-
-  setNext(top){
-      this.next = top;
-  }
-}
-
-class Pila {
-  constructor(){
-      this.array = [];
-      this.top = 0;
-  }
-
-  empty(){
-      return this.top <= 0;
-  }
-
-  full(){
-      // No hace falta definirlo, nunca se llena
-      return false;
-  }
-
-  pop(){
-      let r;
-      if(!this.empty()){
-          this.top--;
-          r = this.array[this.top];;
-      } else {
-          throw 'La pila está vacía.'
-      }
-      return r;
-  }
-
-  push(a){
-      this.array[this.top] = a;
-      this.top++;
-  }
-}
-
-class ColaRef{
-  constructor(){
-      this.front = null;
-      this.rear = null;
-  }
-
-  empty(){
-      return this.front == null;
-  }
-
-  enqueue(a){
-      let newp = new Nodo(a);
-      if(this.rear != null){
-          this.rear.setNext(newp);      
-          this.rear = this.rear.next;      
-      } else {
-          this.front = newp;
-          this.rear = newp;
-      }
-  }
-
-  dequeue(){
-      let res;
-      if(!this.empty()){
-          res = this.front.getData();
-          this.front = this.front.getNext();
-      } else {
-          throw 'La ColaRef está vacía';
-      }
-      return res;
-  }
-}
-
-// var data = new Pila();
-
-// data.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
-// data.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
-// data.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
-// data.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
-
-// console.log(data.top)
-
 const data = [
   { id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" },
   { id: 2, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:""  },
@@ -116,7 +19,7 @@ const data = [
   { id: 4, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" },
 ];
 
-class Tabla extends React.Component {
+class COTabla extends React.Component {
   state = {
     data: data,
     modalActualizar: false,
@@ -202,7 +105,7 @@ class Tabla extends React.Component {
     return (
       <>
         <Container>
-          <Button color="success" className="btn-crear" onClick={()=>this.mostrarModalInsertar()}>Añadir pregunta</Button>
+          <Button color="primary" className="btn-crear" onClick={()=>this.mostrarModalInsertar()}>Añadir pregunta</Button>
           <Table className="tabla1">
             <thead>
               <tr>
@@ -389,4 +292,4 @@ class Tabla extends React.Component {
     );
   }
 }
-export default Tabla;
+export default COTabla;
