@@ -101,13 +101,17 @@ class ColaRef{
 }
 
 var datas = new Pila();
+var cola = new ColaRef();
+
 
 datas.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
 datas.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
 datas.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
 datas.enqueue({ id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" });
 
-console.log(datas.top)
+console.log(datas.top);
+
+cola.enqueue(datas.pop());
 
 const data = [
   { id: 1, Tema: "Conjuntos", pregunta: "Union entre a y b", respuesta:"" },
