@@ -56,6 +56,7 @@ class Pila {
           this.top--;
           r = this.array[this.top];;
       } else {
+          // eslint-disable-next-line no-throw-literal
           throw 'La pila está vacía.'
       }
       return r;
@@ -94,6 +95,7 @@ class ColaRef{
           res = this.front.getData();
           this.front = this.front.getNext();
       } else {
+          // eslint-disable-next-line no-throw-literal
           throw 'La ColaRef está vacía';
       }
       return res;
@@ -158,7 +160,9 @@ class Tabla extends React.Component {
   editar = (dato) => {
     var contador = 0;
     var arreglo = this.state.data;
+    // eslint-disable-next-line array-callback-return
     arreglo.map((registro) => {
+      // eslint-disable-next-line eqeqeq
       if (dato.id == registro.id) {
         arreglo[contador].Tema = dato.Tema;
         arreglo[contador].pregunta = dato.pregunta;
@@ -171,10 +175,13 @@ class Tabla extends React.Component {
 
   eliminar = (dato) => {
     var opcion = window.confirm("Estás Seguro que deseas Eliminar el elemento "+dato.id);
+    // eslint-disable-next-line eqeqeq
     if (opcion == true) {
       var contador = 0;
       var arreglo = this.state.data;
+      // eslint-disable-next-line array-callback-return
       arreglo.map((registro) => {
+        // eslint-disable-next-line eqeqeq
         if (dato.id == registro.id) {
           arreglo.splice(contador, 1);
         }
