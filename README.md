@@ -17,7 +17,7 @@ Gracias al uso de **Estructuras de datos** se piensa acceder a los bancos de pre
 
 ## Para ejecutar
 ```
-cd client
+cd .\client\
 npm install
 npm start
 ```
