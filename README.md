@@ -15,12 +15,12 @@ QuizApp es una nueva aplicación web que busca mejorar los procesos de estudio �
 ## ¿Cómo funciona? 💡
 Gracias al uso de **Estructuras de datos** se piensa acceder a los bancos de preguntas de cada usuario de manera rápida y que convierta al proceso de Active Recall en una metodología aplicable para todo usuario 👥
 
-## Para ejecutar la app
+## Para ejecutar
 ```
 cd client
 npm start
 ```
-## Para construir la app
+## Para construir
 ```
 npm install create-react
 npx create-react-app quizapp
