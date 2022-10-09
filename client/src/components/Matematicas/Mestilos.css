@@ -1,0 +1,76 @@
+
+:root{
+	--col1: #823a75;
+    --col2: #9999FF;
+}
+
+
+ body{
+ justify-content: center;
+
+  /*overflow-x: hidden;*/
+} 
+.title2{
+background-color: #9999FF;
+color: white;
+font-size: 50px;
+text-align: justify;
+position: relative;
+}
+
+
+.divListo{
+position: relative;
+right: -760px;
+top: 170px;
+}
+.Listo{
+   
+    font-size: 40px;
+    font-family: cursive;
+    color: var(--morado);
+}
+
+
+/*Iniciar quiz*/
+.divStart{
+    position: relative;
+    right: -800px;
+    top: 170px;
+}
+.start{
+   
+    background-color: rgb(86, 88, 209);
+    font-size: 50px;
+    height: 10%;
+    width: 20;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.start:hover{
+background-color:var(--col1);
+}
+
+
+/*tabla estilos*/
+
+.btn-crear{
+    position: relative;
+    top: -200px;
+    width: 300px;
+    height: 60px;
+    right: -80px;
+}
+
+.tabla1{
+
+    position:relative;
+    right: 300px;
+    top: -100px;
+}
+.btn-edit{
+   
+    background-color: #9999FF;
+}
