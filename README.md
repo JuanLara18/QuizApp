@@ -4,6 +4,10 @@
 Este repositorio está hecho para el proyecto del curso de Estructuras de Datos de la Universidad Nacional de Colombia para el semsetre 2022-2 
 
 <div align="Center">
+  <div style="margin:10px">
+    <img src="https://github.com/JuanLara18/QuizApp/blob/main/client/public/images/logoProp.png" width="200">
+  </div>
+  
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
   
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
