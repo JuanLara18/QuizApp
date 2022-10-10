@@ -31,13 +31,3 @@ return(
 </BrowserRouter>
 )
 }
-
-/*
-const [conectado, setConectado] = useState(false);
-
-const acceder = (estado)=> {
-    conectado(estado)
-}
-*/
-
-//conectado ? <Menu/>: <Login acceder={acceder}/>

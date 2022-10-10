@@ -1,9 +1,16 @@
 import React from 'react'
+import Abody from '../components/Algebra/Abody'
 import Navbar from '../components/Inicio/Navbar';
+import ATabla from '../components/Algebra/ATabla';
 
 const Algebra = () => {
   return (
-    <div>Algebra</div>
+    <>
+  <Navbar/>
+  <Abody/>
+  <ATabla/>
+
+    </>
   )
 }
 

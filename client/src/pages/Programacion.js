@@ -1,9 +1,16 @@
 import React from 'react'
+import Pbody from '../components/Programacion/Pbody'
 import Navbar from '../components/Inicio/Navbar';
+import PTabla from '../components/Programacion/PTabla';
+
 
 const Programacion = () => {
   return (
-    <div>Programacion</div>
+    <>
+    <Navbar/>
+    <Pbody/>
+    <PTabla/>
+    </>
   )
 }
 

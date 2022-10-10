@@ -17,19 +17,19 @@ return(
         <NavLink className="item1" to="/Math">Matematicas Básicas</NavLink>
         </div>
         <div className='border2'>
-        <NavLink className="item2" to="/Calculo">Cálculo en varias variables</NavLink>
+        <NavLink className="item2" to="/Calculo">Cálculo</NavLink>
         </div>
         <div className='border1'>
-        <NavLink className="item3" to="/Algebra">Álgebra</NavLink>
+        <NavLink className="item3" to="/Alge">Álgebra</NavLink>
         </div>
         <div className='border1'>
-        <NavLink className="item4" to="/Trigonometria">TrigonometrÍa</NavLink>
+        <NavLink className="item4" to="/Trigono">TrigonometrÍa</NavLink>
         </div>
         <div className='border1'>
-        <NavLink className="item5" to="/programacion">Programación</NavLink>
+        <NavLink className="item5" to="/Progra">Programación</NavLink>
         </div>
         <div className='border1'>
-        <NavLink className="item6" to="/Fisic">FÍsica</NavLink>
+        <NavLink className="item6" to="/Fisi">FÍsica</NavLink>
         </div>
         <div className='border1'>
         <NavLink className="item7" to="/Ingle">Inglés</NavLink>
@@ -45,10 +45,6 @@ return(
 <a  href="/Login" className='bt-agendar' >Practicar</a>
 <a  href="/Login" className='bt-agendar' >examen</a> */}
    
-      
-     
-
-
 
 </body>
 
