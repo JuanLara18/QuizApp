@@ -1,18 +1,22 @@
 import React from 'react'
-import "./Mestilos.css"
+
 
 export default function Mbody(){
   return (
 <>
 <body>
 <h2 className='title2'>Matematicas básicas</h2>
-<div className='divListo'>
-<h3 className='Listo'>¿Está todo listo?</h3>
-</div>
+
 
   
 <div className='divStart'>
-<button className='start'>Start quiz</button>
+<button className='start'>
+  <span class="icon-plus"></span>Iniciar repaso</button>
+<button className='start'>
+  <span class="icon-plus"></span>volver
+</button>
+
+
 </div>
 </body>
 </>

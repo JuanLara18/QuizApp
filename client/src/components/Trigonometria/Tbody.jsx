@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Testilos.css"
+
 
 export default function Tbody(){
   return (

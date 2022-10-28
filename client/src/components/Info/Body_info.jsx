@@ -1,5 +1,6 @@
 import React from 'react'
 import"./Info.css";
+import img2 from './img2.png'
 
 export default function Body_info(){
 return(
@@ -17,6 +18,8 @@ de manera ingeniosa e intuitiva, además.
 <br/>
 <br/>
 <br/>
+<img className="img1" src={img2} /> 
+
 
 </body>
 

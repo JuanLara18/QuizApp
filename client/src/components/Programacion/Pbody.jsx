@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Pestilos.css"
+
 
 export default function Pbody(){
   return (

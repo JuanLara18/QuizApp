@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Aestilos.css"
+
 
 export default function Abody(){
   return (
@@ -12,7 +12,7 @@ export default function Abody(){
 
   
 <div className='divStart'>
-<button className='start'>Start quiz</button>
+<button className='start'>Iniciar repaso</button>
 </div>
 </body>
 </>

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Festilos.css"
+
 
 export default function Fbody(){
   return (

@@ -1,8 +1,6 @@
 
 :root{
-	--col1: #823a75;
-    --col2: #9999FF;
-}
+    --col2: #68A074;}
 
 
 *{
@@ -10,12 +8,9 @@
     margin: 0;
     padding: 0;
 }
-body{
- min-height: 100%;
-  /*overflow-x: hidden;*/
-} 
+
 .title2{
-background-color: #9999FF;
+background-color:#68A074;;
 color: white;
 font-size: 50px;
 text-align: justify;
@@ -42,51 +37,42 @@ width: 25%;
 }
 /*Iniciar quiz*/
 .start{
-background-color: rgb(86, 88, 209);
  font-size: 50px;
  height: 10%;
  color: white;
  cursor: pointer;
-
  border: 0;
  border-radius: 0.4rem;
 }
-.Listo{
- font-size: 40px;
- font-family: cursive;
- color: var(--morado);
-}
+
 
 .start:hover{
-background-color:var(--col1);
+background-color:var(--col2);
 }
 /*tabla estilos*/
 
-.btn-crear{
-    width: 200px;
-    height: 60px;
-    margin-top: -70px;
-}
 .tabla1{
    margin-left:-299px;
+   border-radius: 0.4rem;
+   border: solid;
+   border-color: var(--col2);
+   cursor: pointer;
+}
+.tabla2{
+  border-radius: 0.4rem;
+  border: solid;
+  border-color: var(--col2);
+  width: 40%;  
 
 }
 
-
+.btn-crear{
+    width: 50%;
+    height: 10%;
+}
 
 /*media querys*/
-
 @media screen and (max-width: 1000px) {
-   
-    .divListo{
-        position: relative;
-        top: 800px;    
-        }
-        .divStart{
-        position: relative;
-        top: 1000px;  
-        right: 100px;
-        width: 100px;
-        }
+
     }
 

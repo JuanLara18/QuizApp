@@ -1,6 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Mestilos.css"
+
+
+
+
+
 import {
   Table,
   Button,
@@ -106,14 +110,17 @@ class Tabla extends React.Component {
       <>
         <Container>
           <Button color="primary" className="btn-crear" onClick={()=>this.mostrarModalInsertar()}>Añadir pregunta</Button>
+     
+
+
+
           <Table className="tabla1">
             <thead>
               <tr>
                 <th>ID</th>
                 <th>Tema</th>
                 <th>Pregunta</th>
-                <th>Respuesta</th>
-                <th>Acción</th>
+               
               </tr>
             </thead>
 
@@ -125,7 +132,8 @@ class Tabla extends React.Component {
                   <td>{dato.pregunta}</td>
                   <td>{dato.respuesta}</td>
                   <td>
-                    <Button
+                   
+  <Button
                       color="primary"
                       onClick={() => this.mostrarModalActualizar(dato)}
                     >
@@ -134,6 +142,7 @@ class Tabla extends React.Component {
                     <Button color="danger" onClick={()=> this.eliminar(dato)}>Eliminar</Button>
                   </td>
                 </tr>
+
               ))}
             </tbody>
           </Table>
@@ -277,7 +286,7 @@ class Tabla extends React.Component {
             <Button
               color="primary"
               onClick={() => this.insertar()}
-            >
+            ><span class="icon-plus"></span>
               Insertar
             </Button>
             <Button
@@ -288,6 +297,35 @@ class Tabla extends React.Component {
             </Button>
           </ModalFooter>
         </Modal>
+
+
+
+<div className="tabla2">
+
+
+  <h2>Tema 1</h2>
+  <input
+                className="form-control"
+                name="pregunta"
+                type="text"
+                onChange={this.handleChange}
+  />
+
+  <h2>Respuestas:</h2>
+  <input
+                className="form-control"
+                name="pregunta"
+                type="text"
+                onChange={this.handleChange}
+  />
+
+  <h2>Respuesta correcta:</h2>
+
+</div>
+
+
+
+
       </>
     );
   }

@@ -9,13 +9,16 @@ import Algebra from './pages/Algebra'
 import Trigonometria from './pages/Trigonometria'
 import Programacion from './pages/Programacion'
 import Fisica from './pages/Fisica'
+import Introduccion from './pages/Introduccion'
 
 
 export default function App(){
 return(
 <BrowserRouter>
 <Routes>
-<Route path="/" element ={<Inicio/>} />
+
+<Route path="/" element ={<Introduccion/>} />
+<Route path="/Introduccion" element ={<Introduccion/>} />
 <Route path="/Inicio" element ={<Inicio/>} />
 <Route path="/Info" element ={<Info/>} />
 <Route path="/*" element ={<NotFoundPage/>} />
