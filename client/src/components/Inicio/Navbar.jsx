@@ -4,7 +4,25 @@ import "./estilos.css"
 import logo from "./logoProp.png"
 
 
-export default function Navbar () {
+
+
+
+// function Form() { 
+//   function handleSubmit(e) { 
+//     e.preventDefault(); 
+//     alert(impresion); 
+//   } 
+ 
+//   return ( 
+//     <form onSubmit={handleSubmit}> 
+//       <button type="submit">Submit</button> 
+//     </form> 
+//   ); 
+// }
+
+
+
+export default function Navbar ({search, searcher,porfin}) {
     return (
 
 <div>
@@ -31,30 +49,25 @@ export default function Navbar () {
           </ul> */}
 
         <li className="nav-item">
-        <NavLink className="navlink" to="/Info">¿Quiénes somos</NavLink>
+        <NavLink className="navlink" to="/Info">¿Quiénes somos?</NavLink>
         </li>
         <li className="nav-item">
-        <div class="container-fluid">
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Buscar por tema" aria-label="Search"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
+        <div className="container-fluid">
+    <form className="d-flex" role="search">
+    <input  value={search} onChange={searcher} className="form-control me-2" type="search" placeholder="Buscar por Tema" aria-label="Search"/>
+     
+     
+      <button onClick={porfin}  className="btn btn-outline-success"  type="submit">Buscar</button>
+   
+   
     </form>
   </div>
-
        
         </li>
       </ul>
     </div>
   </div>
 </nav>
-
-
-
-
-
-
-
-
 </div>
     )
 }

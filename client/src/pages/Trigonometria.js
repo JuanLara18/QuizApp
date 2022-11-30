@@ -1,7 +1,7 @@
 import React from 'react'
 import Tbody from '../components/Trigonometria/Tbody'
 import Navbar from '../components/Inicio/Navbar';
-import TTabla from '../components/Trigonometria/TTabla';
+
 
 const Trigonometria = () => {
   return (
@@ -9,7 +9,7 @@ const Trigonometria = () => {
     
   <Navbar/>
   <Tbody/>
- <TTabla/>
+
     </>
   )
 }

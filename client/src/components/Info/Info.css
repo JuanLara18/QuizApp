@@ -12,16 +12,13 @@
     padding: 10%;
    
 }
-
 h2.des2{
 	font-family: 'Chewy', cursive;
 	font-size: 350%;
 	width: 55%;
 }
 
-
 .text2{
-
 text-align: justify;
 width: 500px;
 bottom: -150px;
@@ -34,50 +31,12 @@ opacity: 100%;
 }
 
 
-    
-.burbuja:nth-child(1){
-    
-        width: 80px;
-        height: 80px;
-        left: 5%;
-        animation-duration: 6s;
+.img2{
+    position: relative;
+    font-size: 50%;
+    right: -500px;
+    top: -400px;
 }
-    
-.burbuja:nth-child(2){
-    
-        width: 80px;
-        height: 80px;
-        left: 15%;
-        animation-duration: 2s;
- }
-    
- .burbuja:nth-child(3){
- 
-     width: 80px;
-     height: 80px;
-     left: 35%;
-     animation-duration: 5s;
- }
- 
- .burbuja:nth-child(4){
-     width: 80px;
-     height: 80px;
-     left: 76%;
-     animation-duration: 6
-     s;
- }
- 
- @keyframes burbujas{
-     0%{
-         bottom: 0;
-         opacity: 0;
-     }
-     50%{
-         opacity: .4;
-     }
-     100%{
-         bottom: 100vh;
-         opacity: 0;
-     }
- }
+
+  
 

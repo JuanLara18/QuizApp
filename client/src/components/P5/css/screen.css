@@ -1,0 +1,71 @@
+html, 
+body { 
+  margin: 0; 
+  padding: 0; 
+} 
+ 
+.quest { 
+  border-radius: 30px; 
+  display: flex; 
+  border: 5px solid rgba(104, 160, 116, 1); 
+  font-family: "Rubik", sans-serif; 
+  font-size: 25px; 
+  font-weight: 300; 
+  align-items: center; 
+  font-style: italic; 
+  justify-content: center; 
+  text-align: center; 
+  /*vertical-align: center;*/ 
+} 
+ 
+.but{ 
+  background-color: rgba(104, 160, 116, 1); 
+  border-color: transparent; 
+  border-radius: 10px; 
+  font-family: "Rubik", sans-serif; 
+  font-size: 25px; 
+  font-weight: 400; 
+  color: black; 
+} 
+ 
+.but2 { 
+  background-color: white; 
+  border-color: rgba(104, 160, 116, 1); 
+  border-radius: 10px; 
+  font-family: "Rubik", sans-serif; 
+  font-size: 25px; 
+  /* line-height: 38px; */ 
+  font-weight: 400; 
+  color: rgba(104, 160, 116, 1); 
+} 
+ 
+.ans { 
+  background-color: rgba(104, 160, 116, 1); 
+  border-color: transparent; 
+  border-radius: 15px; 
+  font-family: "Rubik", sans-serif; 
+  font-size: 28px; 
+  font-weight: 300; 
+  color: white; 
+  /*text-align: center;*/ 
+} 
+ 
+.ans2 { 
+  background-color: white; 
+  border-color: rgba(104, 160, 116, 1);; 
+  border-radius: 15px; 
+  font-family: "Rubik", sans-serif; 
+  font-size: 28px; 
+  font-weight: 300; 
+  color: rgba(104, 160, 116, 1);; 
+} 
+ 
+.ans3 { 
+  background-color: rgba(160, 104, 104, 1); 
+  border-color: transparent; 
+  border-radius: 15px; 
+  font-family: "Rubik", sans-serif; 
+  font-size: 28px; 
+  font-weight: 300; 
+  color: white; 
+}

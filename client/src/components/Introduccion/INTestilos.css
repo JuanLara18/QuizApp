@@ -15,14 +15,17 @@ padding: 0;
     justify-content: baseline;
     text-align: center;
     display: flex;
+    justify-content: center;
     }
 .part1{
     font-family: 'Rubik', sans-serif;
     font-size:70px;
     font-weight: bold;
-    margin-right: 20px;
-    margin-left: 25%;
+    margin-right: 10px;
+    margin-left: 0%;
     text-align: center;
+    justify-content: center;
+    
 }
 .part2{
     font-family: 'Rubik', sans-serif;
@@ -30,6 +33,7 @@ padding: 0;
     color: #68A074;
     font-weight: bold;
     text-align: center;
+    justify-content: center;
 }
 .title3{
     text-align: center;
@@ -54,12 +58,12 @@ padding: 0;
 
 .DivImg{
     position: absolute;
-    top: 320px;
+    top: 400px;
   
 } 
 .img1{
 
-    width: 400px;
+    width: 350px;
 }
 @media screen and (max-width: 1000px) {
     .DivImg{

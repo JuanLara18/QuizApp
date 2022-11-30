@@ -1,5 +1,5 @@
 import React from 'react'
-import Body_info from '../components/Info/Body_info'
+import Infobody from '../components/Info/Infobody'
 import Navbar from '../components/Inicio/Navbar';
 import "../components/Info/Info.css";
 
@@ -7,7 +7,7 @@ const Info = () => {
   return (
     <>
      <Navbar/>
-    <Body_info/>
+    <Infobody/>
     </>
   )
 }

@@ -1,14 +1,14 @@
 import React from 'react'
 import Mbody from '../components/Matematicas/Mbody'
-import Navbar from '../components/Inicio/Navbar';
-import Tabla from '../components/Matematicas/Tabla';
+import MATNavbar from '../components/Matematicas/MATNavbar';
+// import Tabla from '../components/Matematicas/Tabla';
 
 const Matematicas = () => {
   return (
   <>
-  <Navbar/>
+ {/* <MATNavbar/> */}
   <Mbody/>
- <Tabla/>
+ {/* <Tabla/> */}
  </>
   )
 }

@@ -1,15 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Inicio/Navbar';
+import INbody from '../components/Ingles/INbody'
 
-const Calculo = () => {
+
+
+const Ingles = () => {
   return (
     <>
-    
   <Navbar/>
-  
+  <INbody/>
     
     </>
   )
 }
 
-export default Calculo
+export default Ingles

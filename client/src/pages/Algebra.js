@@ -1,15 +1,12 @@
 import React from 'react'
-import Abody from '../components/Algebra/Abody'
+import ABody from '../components/Algebra/ABody'
 import Navbar from '../components/Inicio/Navbar';
-import ATabla from '../components/Algebra/ATabla';
+
 
 const Algebra = () => {
   return (
     <>
-  <Navbar/>
-  <Abody/>
-  <ATabla/>
-
+  <ABody/>
     </>
   )
 }
