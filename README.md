@@ -1,34 +1,55 @@
 # QuizApp
 
+![QuizApp Logo](https://github.com/JuanLara18/QuizApp/blob/main/client/public/images/logoProp.png)
 
-Este repositorio está hecho para el proyecto del curso de Estructuras de Datos de la Universidad Nacional de Colombia para el semsetre 2022-2 
-<a href="https://quizapp213.netlify.app/"> Enlace a Protipo</a>
-<div align="Center">
-  <div style="margin:10px">
-    <img src="https://github.com/JuanLara18/QuizApp/blob/main/client/public/images/logoProp.png" width="200">
-  </div>
-  
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
-  
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-</div>
+**QuizApp** is a modern, full-stack web application designed to enhance learning through interactive quizzes. Built with **React** and **Python (Flask)**, it offers a seamless experience for creating, managing, and taking quizzes across various subjects.
 
-## ¿En qué consiste? 🤔
-QuizApp es una nueva aplicación web que busca mejorar los procesos de estudio 📚 de las personas alrededor del mundo mediante la implementación de metodologías de estudio inteligentes y productivas 🌱.
+## 🌐 Live Demo
 
-## ¿Cómo funciona? 💡
-Gracias al uso de **Estructuras de datos** se piensa acceder a los bancos de preguntas de cada usuario de manera rápida y que convierta al proceso de Active Recall en una metodología aplicable para todo usuario 👥
+Experience the application firsthand: [QuizApp Prototype](https://quizapp213.netlify.app/)
 
-## Para ejecutar
+## 🚀 Features
+
+- **Dynamic Quiz Creation**: Customize question banks to suit various topics.
+- **Real-Time Feedback**: Immediate scoring and feedback mechanisms.
+- **User-Friendly Interface**: Optimized for both desktop and mobile devices.
+- **Scalable Architecture**: Designed to support future integrations and enhancements.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, React Router, Bootstrap
+- **Backend**: Python (Flask)
+- **Database**: SQLite (with plans for PostgreSQL integration)
+- **Deployment**: Netlify for frontend, Heroku for backend
+
+## 📂 Repository Structure
+
 ```
-cd .\client\
-npm install
-npm start
+QuizApp/
+├── client/             # React frontend
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       └── App.js
+├── server/             # Python backend (Flask)
+│   ├── app.py
+│   └── models.py
+├── README.md
+└── requirements.txt
 ```
-## Para construir
-```
-npm install create-react
-npx create-react-app quizapp
-cd quizapp
-npm i react react-dom react-router react-router-dom react-scripts reactstrap bootstrap
-```
+
+## 📈 Future Enhancements
+
+- **User Authentication**: Secure login and profile management.
+- **Analytics Dashboard**: Track performance and progress over time.
+- **API Integrations**: Incorporate external question sets and resources.
+- **Gamification Elements**: Introduce badges, leaderboards, and more.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
