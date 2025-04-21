@@ -1,6 +1,8 @@
 # QuizApp
 
-![QuizApp Logo](https://github.com/JuanLara18/QuizApp/blob/main/client/public/images/logoProp.png)
+<p align="center">
+  <img src="https://github.com/JuanLara18/QuizApp/blob/main/client/public/images/logoProp.png" alt="QuizApp Logo" width="200"/>
+</p>
 
 **QuizApp** is a modern, full-stack web application designed to enhance learning through interactive quizzes. Built with **React** and **Python (Flask)**, it offers a seamless experience for creating, managing, and taking quizzes across various subjects.
 
